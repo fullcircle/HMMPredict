@@ -3,7 +3,7 @@ import pandas as pd
 import yfinance as yf
 from hmmlearn import hmm
 import matplotlib.pyplot as plt
-
+# https://pyquantnews.com/use-markov-models-to-detect-regime-changes/
 
 
 data = yf.download("NVDA")
